@@ -19,5 +19,6 @@ y=filter(bpFilt, normX);
 % [Pxx, F] = pwelch(y, [], [], Nsample, Fs);
 % 
 % figure,semilogy(F,Pxx)
+y=y/max(abs(y));
 
 audiowrite('bassFiltered_5.46s_192kHz_32bit_stereo.wav',[y, y],Fs,'BitsPerSample',32);
