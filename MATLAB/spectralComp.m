@@ -1,4 +1,4 @@
-clear all; clc; close all;
+clc; close all;
 
 [Yref, Fs1] = audioread('../audio_data/white_noise_5.46s_192kHz_32bit_stereo.wav');
 [Y1to1, Fs2] = audioread('../audio_data/white_noise_5.46s_192kHz_32bit_stereo_Distressor1-1.wav');

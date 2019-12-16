@@ -1,4 +1,4 @@
-clear all; clc; close all;
+clc; close all;
 
 [Yref, Fs1] = audioread('../audio_data/bassFiltered_5.46s_192kHz_32bit_stereo.wav');
 [Y10to1SASR, Fs2] = audioread('../audio_data/bassFiltered_5.46s_192kHz_32bit_stereo_Distressor10-1_SASR.wav');
